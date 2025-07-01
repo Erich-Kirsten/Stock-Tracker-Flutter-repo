@@ -29,7 +29,7 @@ class _NewsPageState extends State<NewsPage> {
     {"label": "Mergers", "value": "merger"},
   ];
 
-  final String _apiKey = 'd1dvr09r01qlt46rnve0d1dvr09r01qlt46rnveg';
+  final String _apiKey = '';
 
   @override
   void initState() {
