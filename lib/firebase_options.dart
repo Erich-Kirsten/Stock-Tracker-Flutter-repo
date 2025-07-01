@@ -40,49 +40,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDlx6zJaxNkcQUNBvW_oMNzSMqPTk37bB8',
-    appId: '1:1097595944093:web:5777ef10d989a2de646874',
-    messagingSenderId: '1097595944093',
-    projectId: 'stocktrack-9f089',
-    authDomain: 'stocktrack-9f089.firebaseapp.com',
-    storageBucket: 'stocktrack-9f089.firebasestorage.app',
-    measurementId: 'G-V2B2SY5P67',
-  );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA1L_J0ffCCNr4nSJvljuXX66lDPNeb0Tg',
-    appId: '1:1097595944093:android:e5c9c1fa1b715690646874',
-    messagingSenderId: '1097595944093',
-    projectId: 'stocktrack-9f089',
-    storageBucket: 'stocktrack-9f089.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDBDfPwgcF1rsC1kzI-AmhMcObZiyFykug',
-    appId: '1:1097595944093:ios:c26061152ffde4d1646874',
-    messagingSenderId: '1097595944093',
-    projectId: 'stocktrack-9f089',
-    storageBucket: 'stocktrack-9f089.firebasestorage.app',
-    iosBundleId: 'com.example.stoktrack1',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDBDfPwgcF1rsC1kzI-AmhMcObZiyFykug',
-    appId: '1:1097595944093:ios:c26061152ffde4d1646874',
-    messagingSenderId: '1097595944093',
-    projectId: 'stocktrack-9f089',
-    storageBucket: 'stocktrack-9f089.firebasestorage.app',
-    iosBundleId: 'com.example.stoktrack1',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDlx6zJaxNkcQUNBvW_oMNzSMqPTk37bB8',
-    appId: '1:1097595944093:web:24a9f26aa4e7d395646874',
-    messagingSenderId: '1097595944093',
-    projectId: 'stocktrack-9f089',
-    authDomain: 'stocktrack-9f089.firebaseapp.com',
-    storageBucket: 'stocktrack-9f089.firebasestorage.app',
-    measurementId: 'G-MLJZ7FD10R',
-  );
 }
