@@ -36,8 +36,8 @@ class _BuyPageState extends State<BuyPage> {
   }
 
   void _loadQuote() async {
-    const apiKey = 'd1dvr09r01qlt46rnve0d1dvr09r01qlt46rnveg';
-    final url = Uri.parse('https://finnhub.io/api/v1/quote?symbol=${widget.symbol}&token=$apiKey');
+    const apiKey = '';
+    final url = Uri.parse('');
     final response = await http.get(url);
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
