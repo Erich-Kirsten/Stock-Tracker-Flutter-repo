@@ -27,11 +27,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => const SplashPage(),         // 🔁 NEW ENTRY POINT
+        '/': (context) => const SplashPage(),         
         '/login': (context) => const AuthPage(),
         '/news': (context) {
           // final args = ModalRoute.of(context)!.settings.arguments as UserDetails;
-          return NavigationController(); // ✅ Still used
+          return NavigationController();
         },
       },
     );
