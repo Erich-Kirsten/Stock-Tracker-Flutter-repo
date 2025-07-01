@@ -16,7 +16,7 @@ class TradePage extends StatefulWidget {
 
 class _TradePageState extends State<TradePage> {
   List<StockInfo> allMarketStocks = [];
-  final String _apiKey = 'd1dvr09r01qlt46rnve0d1dvr09r01qlt46rnveg';
+  final String _apiKey = '';
 
   @override
   void initState() {
