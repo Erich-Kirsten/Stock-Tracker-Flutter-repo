@@ -14,7 +14,20 @@ Includes Firebase authentication (Email & Google Sign-In) and Firestore integrat
 * 💾 Firebase Firestore user data storage
 
 ---
+📁 Project Structure
+lib/
+🔽️ main.dart
+🔽️ Screens/
+🔽️ auth_page.dart
+🔽️ news_page.dart
+🔽️ navigation_controller.dart
+🔽️ models/
+🔽️ user_details.dart
+🔽️ Services/
+🔽️ firebase_service.dart
+🔽️ firebase_options.dart
 
+---
 ## 🔧 Getting Started
 
 ### Requirements
