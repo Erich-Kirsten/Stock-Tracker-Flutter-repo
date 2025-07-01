@@ -4,7 +4,7 @@ import '../models/stock_info.dart';
 import '../utils/parse_utils.dart';
 
 class FinnhubService {
-  static const String _apiKey = 'd1dvr09r01qlt46rnve0d1dvr09r01qlt46rnveg';
+  static const String _apiKey = '';
   static const String _baseUrl = 'https://finnhub.io/api/v1';
 
   static Future<StockInfo?> fetchStockQuote(String symbol, String name) async {
