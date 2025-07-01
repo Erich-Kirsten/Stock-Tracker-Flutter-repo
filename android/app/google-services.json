@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1097595944093",
+    "project_id": "stocktrack-9f089",
+    "storage_bucket": "stocktrack-9f089.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097595944093:android:e5c9c1fa1b715690646874",
+        "android_client_info": {
+          "package_name": "com.example.stoktrack1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097595944093-79j717jp5fljof65q2cehljikq21ap1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1L_J0ffCCNr4nSJvljuXX66lDPNeb0Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097595944093-79j717jp5fljof65q2cehljikq21ap1u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097595944093-p7tmlm7ep1dn5rc6tj717s4q904aeqht.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stoktrack1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
