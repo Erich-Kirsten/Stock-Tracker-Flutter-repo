@@ -17,7 +17,7 @@ class WatchlistPage extends StatefulWidget {
 class _WatchlistPageState extends State<WatchlistPage> {
   List<String> watchSymbols = ['AAPL', 'TSLA', 'GOOGL'];
   List<StockInfo> allMarketStocks = [];
-  final String _apiKey = 'd1dvr09r01qlt46rnve0d1dvr09r01qlt46rnveg';
+  final String _apiKey = '';
   late Future<List<StockQuote>> _quotesFuture;
 
   @override
