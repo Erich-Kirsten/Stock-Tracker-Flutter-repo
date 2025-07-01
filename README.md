@@ -2,6 +2,7 @@
 
 A Flutter app for real-time financial news, market data, and trading watchlists.
 Includes Firebase authentication (Email & Google Sign-In) and Firestore integration.
+Make sure to input your own API key in the respected places/files
 
 ---
 
